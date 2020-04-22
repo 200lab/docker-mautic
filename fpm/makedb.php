@@ -17,7 +17,7 @@ $maxTries = 10;
 
 do
 {
-	$mysql = new mysqli($host, $argv[2], $argv[3], '', (int) $port);
+	$mysql = new mysqli($host, $argv[2], $argv[3], $argv[4], (int) $port);
 
 	if ($mysql->connect_error)
 	{
