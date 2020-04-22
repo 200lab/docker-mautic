@@ -100,7 +100,7 @@ if ! [ -e index.php -a -e app/AppKernel.php ]; then
 fi
 
 # Ensure the MySQL Database is created
-php /makedb.php "$MAUTIC_DB_HOST" "$MAUTIC_DB_USER" "$MAUTIC_DB_PASSWORD" "$MAUTIC_DB_NAME"
+# php /makedb.php "$MAUTIC_DB_HOST" "$MAUTIC_DB_USER" "$MAUTIC_DB_PASSWORD" "$MAUTIC_DB_NAME"
 
 echo >&2 "========================================================================"
 echo >&2
